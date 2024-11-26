@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&family=Roboto:ital,wght@0,100;0,400;0,700;1,300;1,400;1,500&display=swap');
+
+
+:root{
+    --color-main:#1B2026;
+    --color-hightlight:#EFEFEF;
+    --color-text:#565656;
+
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font);
+}
+a{
+    text-decoration:none ;
+}
+/* Container */
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    position:relative;
+}
+
+/*end Container */
+/* Button */
+.button {
+  display:inline-block;
+    color: #000;
+    font-size: 16px 41.6px;
+    font-weight: 600;
+    cursor:pointer;
+    border-radius: 20px;
+  }
+  .button-1{
+    padding:16px 41px;
+    font-size:16px;
+    color:var(--color-main);
+    background:#F7D9C4;
+    margin:10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+  }
+  .button-1:hover{
+    background:#fff;
+    color:#000;    
+  }
+  .button-2{
+    padding:16px 41px;
+    font-size:18px;
+    margin:10px;
+    color:var(--color-main);
+    background:#fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+  }
+  .button-2:hover{
+    background:#F7D9C4;    
+  }
+  
+/* end Button */
